@@ -93,7 +93,7 @@ try:
             print(ReleState)
             
         msg = {"datastamp": now.strftime(
-            '%m.%d.%Y %H:%M:%S'),  "temperatura": DHT['temperature'], "humidity": DHT['humidity'], "CoolState": CoolState, "ReleState": ReleState}
+            '%d.%m.%Y %H:%M:%S'),  "temperatura": DHT['temperature'], "humidity": DHT['humidity'], "CoolState": CoolState, "ReleState": ReleState}
 
         publish(client,msg)    
         #else:
