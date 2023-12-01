@@ -25,10 +25,19 @@ body {
     
 }
 
+a {
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
 .wrapper {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.title-icon {
+ margin-right: 10px;
 }
 
 .header-top a{
@@ -38,6 +47,9 @@ body {
 .main {
     flex: 1 1 auto;
 }
+
+
+/* --------------header--------------- */
 
 .baner {
     position: relative;
@@ -61,10 +73,33 @@ body {
 }
 
 
+/* --------------Nav--------------- */
+
 .navbar-light .navbar-nav .nav-link {
     color: var(--title-color)
 }
 
 .active {
     background-color: #6c757d ! important;
+}
+
+/* --------------Main--------------- */
+
+
+.monitoring {
+    border-right: #d1d6da 1px solid;
+}
+
+.mnu-trends {
+    border: #d1d6da 1px solid;
+}
+
+.card-title {
+    color: var(--text-color);
+    font-size: 24px;
+}
+
+.card-header {
+    color: var(--text-color);
+    
 }
