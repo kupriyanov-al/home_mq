@@ -159,9 +159,9 @@
                                             <input class="form-control me-2" type="date" data-date-format="dd.mm.YYYY" placeholder="Search" aria-label="Search">
                                             <button class="btn btn-outline-secondary me-2" type="submit">Search</button>
                                             
-                                            <button class="btn btn-outline-secondary me-2" type="submit"><i class="bi bi-filetype-xls" style="font-size: 1rem; color: cornflowerblue;"></i></button>
-                                            <button class="btn btn-outline-secondary me-2" type="submit"><i class="bi bi-table"
-                                                    style="font-size: 1rem; color: cornflowerblue;"></i></button>
+                                            <button class="btn btn-outline-secondary me-2" type="submit"><i class="bi bi-filetype-xls" ></i></button>
+                                            <button class="btn btn-outline-secondary me-2 " data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="button"><i class="bi bi-table"
+                                                    ></i></button>
                                         </form>
                                        
                                        
@@ -177,7 +177,26 @@
                 
             </div>
 
-           
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
         </main>
         <footer class="footer">footer</footer>
 
